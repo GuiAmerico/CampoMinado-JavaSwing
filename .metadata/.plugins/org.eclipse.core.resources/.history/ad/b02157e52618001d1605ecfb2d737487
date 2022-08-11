@@ -1,0 +1,14 @@
+package br.com.americo.cm;
+
+import br.com.americo.cm.modelo.Tabuleiro;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tabuleiro tabuleiro = new Tabuleiro(6, 6, 6 );
+		
+		System.out.println(tabuleiro);
+	}
+
+}

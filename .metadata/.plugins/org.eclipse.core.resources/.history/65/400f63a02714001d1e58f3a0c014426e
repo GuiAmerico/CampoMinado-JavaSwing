@@ -1,0 +1,16 @@
+package lambdas;
+
+import java.util.function.Predicate;
+
+public class PredicadoComposicao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Predicate<Integer> isPar = num -> num % 2 == 0;
+		
+		System.out.println(isPar.test(2));
+		
+	}
+
+}

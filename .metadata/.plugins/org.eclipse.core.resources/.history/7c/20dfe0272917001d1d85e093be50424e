@@ -1,0 +1,18 @@
+package streams;
+
+public class Media {
+	private double total;
+	private int quantidade;
+	
+	public Media adicionar(double valor) {
+		this.total += valor;
+		this.quantidade++;
+		return this;
+	}
+	
+	public double getValor() {
+		
+		return this.total / this.quantidade;
+	}
+	
+}

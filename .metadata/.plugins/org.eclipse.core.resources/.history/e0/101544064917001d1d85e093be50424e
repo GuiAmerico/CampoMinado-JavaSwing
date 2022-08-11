@@ -1,0 +1,21 @@
+package excecao;
+
+import java.util.Scanner;
+
+public class Finally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			Scanner entrada = new Scanner(System.in);
+			System.out.println(20 / entrada.nextInt());
+			entrada.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+
+	}
+
+}

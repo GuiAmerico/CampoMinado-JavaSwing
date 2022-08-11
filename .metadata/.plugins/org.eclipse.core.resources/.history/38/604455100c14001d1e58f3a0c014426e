@@ -1,0 +1,13 @@
+package lambdas;
+
+public class CalcTeste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Soma soma1 = new Soma(4,6);
+		System.out.println(soma1);
+
+	}
+
+}

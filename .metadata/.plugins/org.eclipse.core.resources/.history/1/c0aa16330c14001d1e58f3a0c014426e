@@ -1,0 +1,21 @@
+package lambdas;
+
+public class Soma implements Calculo{
+	public double a;
+	public double b;
+	
+	
+	@Override
+	public double executar(double a, double b) {
+		return this.a + this.b;
+	}
+
+	@Override
+	public String toString() {
+	
+		return "A soma de " + this.a + " + " + this.b +  "é: " + (this.a + this.b) ;
+	}
+	
+	
+
+}

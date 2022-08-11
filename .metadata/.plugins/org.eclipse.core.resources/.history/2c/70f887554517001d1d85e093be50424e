@@ -1,0 +1,19 @@
+package excecao.personalizadaA;
+
+import excecao.Aluno;
+
+public class TesteValidacao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Aluno aluno1 = new Aluno("", -7);
+		//Aluno aluno2 = new Aluno(null, 23);
+		
+		Validar.aluno(aluno1);
+		//Validar.aluno(aluno2);
+		
+		System.out.println("FIM");
+		
+	}
+
+}

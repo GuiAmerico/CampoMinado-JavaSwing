@@ -1,0 +1,40 @@
+package excecao.personalizadaA;
+
+import excecao.Aluno;
+
+public class TesteValidacao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Aluno aluno1 = new Aluno("", -7);
+			Validar.aluno(aluno1);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+		
+		try {
+			Aluno aluno2 = new Aluno(null, 23);
+			Validar.aluno(aluno2);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+		try {
+			Aluno aluno3 = new Aluno("Gui", -5);
+			Validar.aluno(aluno3);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		try {
+			Aluno aluno4 = new Aluno("Gui", 15);
+			Validar.aluno(aluno4);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		System.out.println("FIM");
+		
+	}
+
+}

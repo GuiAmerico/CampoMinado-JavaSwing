@@ -1,0 +1,5 @@
+package br.com.americo.cm.excecao;
+
+public class SairException {
+
+}
